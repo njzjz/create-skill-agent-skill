@@ -7,7 +7,7 @@ An Agent Skill that helps create new Agent Skills following the [agentskills.io 
 Copy this skill to your agent's skills directory:
 
 ```bash
-cp -r create-skill /path/to/your/agent/skills/
+cp -r skills/create-skill /path/to/your/agent/skills/
 ```
 
 ## Usage
@@ -35,8 +35,11 @@ The agent will:
 
 ```
 create-skill/
-├── SKILL.md          # Main skill instructions
-└── README.md         # This file
+├── skills/
+│   └── create-skill/
+│       └── SKILL.md      # Main skill instructions
+├── README.md             # This file
+└── LICENSE               # MIT License
 ```
 
 ## Specification Compliance
